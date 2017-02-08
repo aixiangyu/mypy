@@ -22,8 +22,8 @@ def quadratic(a, b, c):
 
 	delta = b * b - 4 * a * c
 
-	if delta < 0 :
-		print('no result!')
+	#if delta < 0 :
+	#	print('no result!')
 
 	x1 = (-b + math.sqrt(delta)) / (2 * a)
 
@@ -32,8 +32,8 @@ def quadratic(a, b, c):
 	return x1, x2
 
 
-a = 2
-b = 3
+a = 3
+b = 2
 c = 1
 print(quadratic(a, b, c))
 
